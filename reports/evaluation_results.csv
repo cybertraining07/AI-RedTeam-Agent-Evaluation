@@ -1,0 +1,6 @@
+scenario_id,scenario_type,agent_decision,expected_action,score,passed
+1,open_port,investigate_service,investigate_service,100,True
+2,suspicious_login,escalate_alert,escalate_alert,100,True
+3,phishing,report_phishing,report_phishing,100,True
+4,unknown_activity,escalate_alert,escalate_alert,100,True
+5,phishing,escalate_alert,escalate_alert,100,True

@@ -1,0 +1,52 @@
+{
+    "generated_at": "2026-11-13T22:06:04.305278+00:00",
+    "total_scenarios": 5,
+    "passed": 5,
+    "failed": 0,
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "failure_rate": 0.0,
+    "results": [
+        {
+            "scenario_id": 1,
+            "scenario_type": "open_port",
+            "agent_decision": "investigate_service",
+            "expected_action": "investigate_service",
+            "score": 100,
+            "passed": true
+        },
+        {
+            "scenario_id": 2,
+            "scenario_type": "suspicious_login",
+            "agent_decision": "escalate_alert",
+            "expected_action": "escalate_alert",
+            "score": 100,
+            "passed": true
+        },
+        {
+            "scenario_id": 3,
+            "scenario_type": "phishing",
+            "agent_decision": "report_phishing",
+            "expected_action": "report_phishing",
+            "score": 100,
+            "passed": true
+        },
+        {
+            "scenario_id": 4,
+            "scenario_type": "unknown_activity",
+            "agent_decision": "escalate_alert",
+            "expected_action": "escalate_alert",
+            "score": 100,
+            "passed": true
+        },
+        {
+            "scenario_id": 5,
+            "scenario_type": "phishing",
+            "agent_decision": "escalate_alert",
+            "expected_action": "escalate_alert",
+            "score": 100,
+            "passed": true
+        }
+    ]
+}
